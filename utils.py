@@ -49,7 +49,8 @@ def generar_slug(texto):
     slug = texto.lower()
     
     # TODO: Reemplazar espacios con guiones
-    
+    slug = slug.replace(" ", "-")
+
     # TODO: Eliminar caracteres no alfanuméricos (excepto guiones)
     
     # TODO: Reemplazar múltiples guiones con uno solo
