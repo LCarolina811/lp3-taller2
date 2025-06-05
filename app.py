@@ -20,5 +20,3 @@ if __name__ == "__main__":
     
     # TODO: Ejecutar aplicación
         app.run(host="0.0.0.0", port=port, debug=debug)
-
-    pass
