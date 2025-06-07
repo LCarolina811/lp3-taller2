@@ -46,7 +46,7 @@ config_by_name = {
 }
 
 # Obtener configuración según el entorno
-def get_config():
+def get_config(config_name=None):
     """
     Obtiene la configuración según el entorno especificado en las variables de entorno.
     
