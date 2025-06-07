@@ -23,7 +23,7 @@ def create_app(config_name=None):
     
     # Aplicar configuración según entorno
     # FIXME: Debe usar el método para leer la configuración
-    config_obj = ""
+    config_obj = get_config(config_name)
     app.config.from_object(config_obj)
     
     # Inicialización de extensiones
